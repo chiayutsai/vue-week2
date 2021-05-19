@@ -11478,7 +11478,7 @@ ul, ol, li {
   margin-bottom: 0; }
 
 img {
-  height: 100px;
+  height: 15vh;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: bottom;
@@ -11529,8 +11529,8 @@ input[type=checkbox]:checked::after {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-.w-20 {
-  width: 20%; }
+.w-15 {
+  width: 15%; }
 
 .w-40 {
   width: 40%; }

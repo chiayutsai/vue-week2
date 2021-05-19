@@ -12,7 +12,7 @@ const app = {
         this.render()
       } else {
         alert('驗證錯誤, 請重新登入')
-        window.location = 'login.html'
+        window.location = 'index.html'
       }
     })
   },
@@ -43,7 +43,7 @@ const app = {
     let template = ''
     this.data.productsData.forEach((item, index) => {
       template += `<tr>
-      <td class="w-20">
+      <td class="w-15">
                <img class="w-100" src=" ${item.imageUrl}">
               </td>
               <td class="w-40">${item.title}</td>
