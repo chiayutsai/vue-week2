@@ -1,0 +1,41 @@
+
+
+/*color*/
+$primary :#516E41;
+$secondary:#AC8A46;
+$info:#818A91;
+$dark: rgba(0,0,0,0.7);
+$light:#E0E0E0;
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "info":       $info,
+  "light":      $light,
+  "dark":       $dark,
+  "white":      #fff,
+  "black" : #121212,
+);
+
+
+/*spacer */
+$spacer: 1rem ;
+$spacers: (
+  0:0,
+  1:($spacer * 0.25),
+  2: ($spacer * .375),
+  3: ($spacer * 0.5),
+  4: ($spacer * .75),
+  5: $spacer,
+  6:($spacer * 1.25),
+  7: ($spacer * 1.5),
+  8: ($spacer * 1.75),
+  9: ($spacer * 2),
+  10: ($spacer * 2.25),
+  11: ($spacer * 2.5),
+  12: ($spacer * 3.25),
+  13: ($spacer * 3.75),
+  15: ($spacer * 5),
+  16: ($spacer * 6.625),
+  17: ($spacer * 7),
+);
+
