@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>後台</title>
+    <link rel="stylesheet" href="assets/style/all.css" />
+  </head>
+  <body>
+    <div class="position-relative bg bg-login bg-cover min-vh-100 p-12">
+      <div class="position-absolute bg-primary w-100 h-100 opacity-5 top-0 start-0"></div>
+      <div class="bg-white position-relative">
+        <table class="table rounded-3 mb-0">
+          <thead class="bg-dark text-white">
+            <tr>
+              <th class="w-20">產品圖片</th>
+              <th class="w-40">產品名稱</th>
+              <th>原價</th>
+              <th>售價</th>
+              <th>是否啟用</th>
+              <th>刪除</th>
+            </tr>
+          </thead>
+          <tbody id="productList"></tbody>
+        </table>
+        <div class="d-flex justify-content-between align-items-center p-4">
+          <p id="totalAmount"></p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.9.1/axios.min.js"
+      integrity="sha512-Xk3wWei2TGrsh9kDSBKUMIjw/86sLUvhtnv9f7fOuIwhhiUTKz8szkWkzHthrM5Bb3Bu9idSzkxOrkzhcneuiw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
